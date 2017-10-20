@@ -50,7 +50,6 @@ public class frmPrincipal extends javax.swing.JFrame {
             }
         });
 
-        mnuRegistrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/registro.png"))); // NOI18N
         mnuRegistrar.setText("Registros");
 
         jMenuItem1.setText("Año Escolar");
@@ -63,27 +62,21 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         jMenuBar2.add(mnuRegistrar);
 
-        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/transaccion.png"))); // NOI18N
         jMenu4.setText("Transacciones");
         jMenuBar2.add(jMenu4);
 
-        jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/consulta.png"))); // NOI18N
         jMenu5.setText("Consultas");
         jMenuBar2.add(jMenu5);
 
-        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/reporte.png"))); // NOI18N
         jMenu6.setText("Reportes");
         jMenuBar2.add(jMenu6);
 
-        jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/utilitarios.png"))); // NOI18N
         jMenu7.setText("Utilitarios");
         jMenuBar2.add(jMenu7);
 
-        jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/ayuda.png"))); // NOI18N
         jMenu8.setText("Ayuda");
         jMenuBar2.add(jMenu8);
 
-        jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/salir.png"))); // NOI18N
         jMenu9.setText("Salir");
         jMenuBar2.add(jMenu9);
 
@@ -97,7 +90,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(pnlPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 265, Short.MAX_VALUE)
+            .addComponent(pnlPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 276, Short.MAX_VALUE)
         );
 
         getAccessibleContext().setAccessibleName("Sistema \"ADMINISTRATIVO DE COLEGIO\"");
@@ -110,8 +103,8 @@ public class frmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_pnlPrincipalMouseMoved
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        frmAnio ofrmAnio = new frmAnio();
-        ofrmAnio.setVisible(true);
+//        frmAnio ofrmAnio = new frmAnio();
+//        ofrmAnio.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
